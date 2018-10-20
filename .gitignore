@@ -1,0 +1,12 @@
+*.pyc
+.ipynb*
+
+*.gz
+
+*.h5
+
+*ckpt*
+
+checkpoint
+
+events*
