@@ -1,7 +1,6 @@
 *.h5
 *.pickle
 *.wbproj
-*.tar.gz
 .ipynb_*
 *.pcd
 
@@ -16,3 +15,14 @@ Dataset/scripts/vtkplotter/examples/tests/
 Dataset/scripts/vtkplotter/examples/
 
 *.pyc
+
+*.gz
+
+*.h5
+
+*ckpt*
+
+checkpoint
+
+events*
+
