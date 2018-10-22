@@ -483,11 +483,6 @@ def save_h5_files(data, label, out_path, data_dtype, label_dtype):
         np_data_filtered = np_data[np_label == cls]
         np_label_filtered = np_label[np_label == cls]
         
-        print "total_num:" , total_num
-        print "train_num:" , train_num
-        print " test_num:" , test_num
-        print " vali_num:" , vali_num
-        
         data_train = np_data_filtered[:train_num]
         data_test = np_data_filtered[train_num: train_num + test_num]
         data_vali = np_data_filtered[train_num + test_num:]
