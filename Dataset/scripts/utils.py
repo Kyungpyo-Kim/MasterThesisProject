@@ -405,14 +405,17 @@ def NormalizeResample(data, num_sample):
     y_max = float(data[:,1].max())
     z_min = float(data[:,2].min())
     z_max = float(data[:,2].max())
+    
+    scale_val = np.max([ x_max - x_min , y_max - y_min , z_max - z_min ])
+    offset_val = np.min([x_min, y_min, z_min])
       
-    data[:,0] = data[:,0] - x_min
-    data[:,1] = data[:,1] - y_min
-    data[:,2] = data[:,2] - z_min
+    data[:,0] = data[:,0] - offset_val
+    data[:,1] = data[:,1] - offset_val
+    data[:,2] = data[:,2] - offset_val
       
-    data[:,0] = data[:,0] / float(x_max - x_min)
-    data[:,1] = data[:,1] / float(y_max - y_min)
-    data[:,2] = data[:,2] / float(z_max - z_min)
+    data[:,0] = data[:,0] / float(scale_val)
+    data[:,1] = data[:,1] / float(scale_val)
+    data[:,2] = data[:,2] / float(scale_val)
                  
     ## resampling
     N = data.shape[0]
