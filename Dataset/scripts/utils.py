@@ -451,7 +451,7 @@ def save_h5_files(data, label, out_path, data_dtype, label_dtype):
     print "Total data:", len(data)
     print "Total label:", len(label)
     
-    label_list = [0, 1, 2] ## unknown, cars, trucks
+    label_list = [0, 1, 2, 3, 4] ## unknown, cars, trucks, pedestrians, bikes
     
     np_data = np.array(data)
     np_label = np.array(label)
