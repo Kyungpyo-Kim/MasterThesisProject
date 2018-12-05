@@ -1,0 +1,241 @@
+2018-12-03 22:03:49.714966  
+
+ Train one epoch   1 /  10
+2018-12-03 22:13:30.194931  [Epoch 0] mean loss: 0.011399
+2018-12-03 22:13:30.197077  [Epoch 0] heading rmse[deg]: 147.107654
+2018-12-03 22:13:30.199025  [Epoch 0] class accuracy: 0.770402
+2018-12-03 22:13:30.215946  [Epoch 0] avg class acc: 0.795778
+2018-12-03 22:13:30.217748  [Epoch 0] indivisual [0] class recall: 0.708417
+2018-12-03 22:13:30.219423  [Epoch 0] indivisual [0] class precision: 0.758754
+2018-12-03 22:13:30.221168  [Epoch 0] indivisual [1] class recall: 0.805585
+2018-12-03 22:13:30.223081  [Epoch 0] indivisual [1] class precision: 0.765290
+2018-12-03 22:13:30.224919  [Epoch 0] indivisual [2] class recall: 0.873333
+2018-12-03 22:13:30.226907  [Epoch 0] indivisual [2] class precision: 0.831922
+2018-12-03 22:13:30.228612   Evaluation one (validation set) epoch   1 /  10
+2018-12-03 22:14:16.318422  [Epoch 0] Validation mean loss: 0.009211
+2018-12-03 22:14:16.320021  [Epoch 0] Validation heading rmse[deg]: 106.396026
+2018-12-03 22:14:16.321475  [Epoch 0] Validation class accuracy: 0.832788
+2018-12-03 22:14:16.322977  [Epoch 0] Validation avg class acc: 0.213410
+2018-12-03 22:14:16.324804  [Epoch 0] Validation indivisual [0] class recall: 0.229685
+2018-12-03 22:14:16.326466  [Epoch 0] Validation indivisual [0] class precision: 0.753937
+2018-12-03 22:14:16.328205  [Epoch 0] Validation indivisual [1] class recall: 0.181865
+2018-12-03 22:14:16.329878  [Epoch 0] Validation indivisual [1] class precision: 0.951098
+2018-12-03 22:14:16.331577  [Epoch 0] Validation indivisual [2] class recall: 0.228679
+2018-12-03 22:14:16.333231  [Epoch 0] Validation indivisual [2] class precision: 0.846083
+2018-12-03 22:14:16.334904  
+
+ Train one epoch   2 /  10
+2018-12-03 22:23:55.767410  [Epoch 1] mean loss: 0.004901
+2018-12-03 22:23:55.769299  [Epoch 1] heading rmse[deg]: 105.446991
+2018-12-03 22:23:55.770944  [Epoch 1] class accuracy: 0.911220
+2018-12-03 22:23:55.772695  [Epoch 1] avg class acc: 0.918323
+2018-12-03 22:23:55.774255  [Epoch 1] indivisual [0] class recall: 0.890810
+2018-12-03 22:23:55.775902  [Epoch 1] indivisual [0] class precision: 0.906377
+2018-12-03 22:23:55.777432  [Epoch 1] indivisual [1] class recall: 0.924049
+2018-12-03 22:23:55.778970  [Epoch 1] indivisual [1] class precision: 0.923412
+2018-12-03 22:23:55.780605  [Epoch 1] indivisual [2] class recall: 0.940111
+2018-12-03 22:23:55.782387  [Epoch 1] indivisual [2] class precision: 0.882733
+2018-12-03 22:23:55.784019   Evaluation one (validation set) epoch   2 /  10
+2018-12-03 22:24:42.009175  [Epoch 1] Validation mean loss: 0.003617
+2018-12-03 22:24:42.011048  [Epoch 1] Validation heading rmse[deg]: 104.693826
+2018-12-03 22:24:42.012853  [Epoch 1] Validation class accuracy: 0.947249
+2018-12-03 22:24:42.014648  [Epoch 1] Validation avg class acc: 0.232854
+2018-12-03 22:24:42.016484  [Epoch 1] Validation indivisual [0] class recall: 0.241758
+2018-12-03 22:24:42.018215  [Epoch 1] Validation indivisual [0] class precision: 0.916366
+2018-12-03 22:24:42.019978  [Epoch 1] Validation indivisual [1] class recall: 0.235601
+2018-12-03 22:24:42.021714  [Epoch 1] Validation indivisual [1] class precision: 0.994238
+2018-12-03 22:24:42.023207  [Epoch 1] Validation indivisual [2] class recall: 0.221204
+2018-12-03 22:24:42.024884  [Epoch 1] Validation indivisual [2] class precision: 0.895714
+2018-12-03 22:24:42.026545  
+
+ Train one epoch   3 /  10
+2018-12-03 22:34:21.662246  [Epoch 2] mean loss: 0.003103
+2018-12-03 22:34:21.664169  [Epoch 2] heading rmse[deg]: 104.706929
+2018-12-03 22:34:21.665954  [Epoch 2] class accuracy: 0.947591
+2018-12-03 22:34:21.667803  [Epoch 2] avg class acc: 0.948351
+2018-12-03 22:34:21.669551  [Epoch 2] indivisual [0] class recall: 0.933407
+2018-12-03 22:34:21.671355  [Epoch 2] indivisual [0] class precision: 0.947060
+2018-12-03 22:34:21.673042  [Epoch 2] indivisual [1] class recall: 0.960647
+2018-12-03 22:34:21.674653  [Epoch 2] indivisual [1] class precision: 0.961921
+2018-12-03 22:34:21.676270  [Epoch 2] indivisual [2] class recall: 0.951000
+2018-12-03 22:34:21.677783  [Epoch 2] indivisual [2] class precision: 0.895293
+2018-12-03 22:34:21.679357   Evaluation one (validation set) epoch   3 /  10
+2018-12-03 22:35:07.358280  [Epoch 2] Validation mean loss: 0.002244
+2018-12-03 22:35:07.360177  [Epoch 2] Validation heading rmse[deg]: 104.203926
+2018-12-03 22:35:07.362006  [Epoch 2] Validation class accuracy: 0.975093
+2018-12-03 22:35:07.363989  [Epoch 2] Validation avg class acc: 0.239507
+2018-12-03 22:35:07.365653  [Epoch 2] Validation indivisual [0] class recall: 0.241847
+2018-12-03 22:35:07.367671  [Epoch 2] Validation indivisual [0] class precision: 0.977116
+2018-12-03 22:35:07.369807  [Epoch 2] Validation indivisual [1] class recall: 0.249535
+2018-12-03 22:35:07.371730  [Epoch 2] Validation indivisual [1] class precision: 0.991289
+2018-12-03 22:35:07.373580  [Epoch 2] Validation indivisual [2] class recall: 0.227140
+2018-12-03 22:35:07.375301  [Epoch 2] Validation indivisual [2] class precision: 0.902019
+2018-12-03 22:35:07.377198  
+
+ Train one epoch   4 /  10
+2018-12-03 22:44:45.692463  [Epoch 3] mean loss: 0.002123
+2018-12-03 22:44:45.694427  [Epoch 3] heading rmse[deg]: 104.489407
+2018-12-03 22:44:45.696231  [Epoch 3] class accuracy: 0.965746
+2018-12-03 22:44:45.698053  [Epoch 3] avg class acc: 0.965491
+2018-12-03 22:44:45.699950  [Epoch 3] indivisual [0] class recall: 0.955766
+2018-12-03 22:44:45.701864  [Epoch 3] indivisual [0] class precision: 0.966241
+2018-12-03 22:44:45.703697  [Epoch 3] indivisual [1] class recall: 0.975715
+2018-12-03 22:44:45.705415  [Epoch 3] indivisual [1] class precision: 0.980368
+2018-12-03 22:44:45.707053  [Epoch 3] indivisual [2] class recall: 0.964992
+2018-12-03 22:44:45.708722  [Epoch 3] indivisual [2] class precision: 0.908739
+2018-12-03 22:44:45.710300   Evaluation one (validation set) epoch   4 /  10
+2018-12-03 22:45:31.185292  [Epoch 3] Validation mean loss: 0.002456
+2018-12-03 22:45:31.187122  [Epoch 3] Validation heading rmse[deg]: 105.155307
+2018-12-03 22:45:31.188912  [Epoch 3] Validation class accuracy: 0.977249
+2018-12-03 22:45:31.190675  [Epoch 3] Validation avg class acc: 0.238943
+2018-12-03 22:45:31.192336  [Epoch 3] Validation indivisual [0] class recall: 0.245377
+2018-12-03 22:45:31.194057  [Epoch 3] Validation indivisual [0] class precision: 0.972283
+2018-12-03 22:45:31.195944  [Epoch 3] Validation indivisual [1] class recall: 0.248257
+2018-12-03 22:45:31.197899  [Epoch 3] Validation indivisual [1] class precision: 0.989936
+2018-12-03 22:45:31.199712  [Epoch 3] Validation indivisual [2] class recall: 0.223195
+2018-12-03 22:45:31.201538  [Epoch 3] Validation indivisual [2] class precision: 0.943935
+2018-12-03 22:45:31.203285  
+
+ Train one epoch   5 /  10
+2018-12-03 22:55:09.314881  [Epoch 4] mean loss: 0.001756
+2018-12-03 22:55:09.316976  [Epoch 4] heading rmse[deg]: 104.408343
+2018-12-03 22:55:09.321850  [Epoch 4] class accuracy: 0.972000
+2018-12-03 22:55:09.324872  [Epoch 4] avg class acc: 0.970998
+2018-12-03 22:55:09.326815  [Epoch 4] indivisual [0] class recall: 0.964042
+2018-12-03 22:55:09.328581  [Epoch 4] indivisual [0] class precision: 0.972228
+2018-12-03 22:55:09.330177  [Epoch 4] indivisual [1] class recall: 0.980739
+2018-12-03 22:55:09.331895  [Epoch 4] indivisual [1] class precision: 0.983018
+2018-12-03 22:55:09.333657  [Epoch 4] indivisual [2] class recall: 0.968212
+2018-12-03 22:55:09.335653  [Epoch 4] indivisual [2] class precision: 0.928678
+2018-12-03 22:55:09.337327   Evaluation one (validation set) epoch   5 /  10
+2018-12-03 22:55:54.912946  [Epoch 4] Validation mean loss: 0.002240
+2018-12-03 22:55:54.915069  [Epoch 4] Validation heading rmse[deg]: 103.840658
+2018-12-03 22:55:54.917004  [Epoch 4] Validation class accuracy: 0.973271
+2018-12-03 22:55:54.919008  [Epoch 4] Validation avg class acc: 0.239346
+2018-12-03 22:55:54.920713  [Epoch 4] Validation indivisual [0] class recall: 0.244182
+2018-12-03 22:55:54.922577  [Epoch 4] Validation indivisual [0] class precision: 0.965970
+2018-12-03 22:55:54.924377  [Epoch 4] Validation indivisual [1] class recall: 0.246075
+2018-12-03 22:55:54.926120  [Epoch 4] Validation indivisual [1] class precision: 0.993818
+2018-12-03 22:55:54.927958  [Epoch 4] Validation indivisual [2] class recall: 0.227781
+2018-12-03 22:55:54.929842  [Epoch 4] Validation indivisual [2] class precision: 0.919865
+2018-12-03 22:55:54.931537  
+
+ Train one epoch   6 /  10
+2018-12-03 23:05:33.470678  [Epoch 5] mean loss: 0.001017
+2018-12-03 23:05:33.472719  [Epoch 5] heading rmse[deg]: 104.066295
+2018-12-03 23:05:33.474684  [Epoch 5] class accuracy: 0.985437
+2018-12-03 23:05:33.476771  [Epoch 5] avg class acc: 0.983932
+2018-12-03 23:05:33.478573  [Epoch 5] indivisual [0] class recall: 0.980911
+2018-12-03 23:05:33.480476  [Epoch 5] indivisual [0] class precision: 0.986130
+2018-12-03 23:05:33.482217  [Epoch 5] indivisual [1] class recall: 0.991334
+2018-12-03 23:05:33.483880  [Epoch 5] indivisual [1] class precision: 0.992485
+2018-12-03 23:05:33.485423  [Epoch 5] indivisual [2] class recall: 0.979551
+2018-12-03 23:05:33.486909  [Epoch 5] indivisual [2] class precision: 0.955137
+2018-12-03 23:05:33.488514   Evaluation one (validation set) epoch   6 /  10
+2018-12-03 23:06:18.870800  [Epoch 5] Validation mean loss: 0.002096
+2018-12-03 23:06:18.872661  [Epoch 5] Validation heading rmse[deg]: 103.820206
+2018-12-03 23:06:18.874432  [Epoch 5] Validation class accuracy: 0.984572
+2018-12-03 23:06:18.876406  [Epoch 5] Validation avg class acc: 0.240993
+2018-12-03 23:06:18.878070  [Epoch 5] Validation indivisual [0] class recall: 0.247612
+2018-12-03 23:06:18.879765  [Epoch 5] Validation indivisual [0] class precision: 0.978782
+2018-12-03 23:06:18.881592  [Epoch 5] Validation indivisual [1] class recall: 0.249478
+2018-12-03 23:06:18.883521  [Epoch 5] Validation indivisual [1] class precision: 0.993491
+2018-12-03 23:06:18.885260  [Epoch 5] Validation indivisual [2] class recall: 0.225890
+2018-12-03 23:06:18.886961  [Epoch 5] Validation indivisual [2] class precision: 0.970630
+2018-12-03 23:06:18.888617  
+
+ Train one epoch   7 /  10
+2018-12-03 23:15:58.235987  [Epoch 6] mean loss: 0.000870
+2018-12-03 23:15:58.238029  [Epoch 6] heading rmse[deg]: 104.152940
+2018-12-03 23:15:58.239956  [Epoch 6] class accuracy: 0.987616
+2018-12-03 23:15:58.241818  [Epoch 6] avg class acc: 0.985465
+2018-12-03 23:15:58.243604  [Epoch 6] indivisual [0] class recall: 0.984598
+2018-12-03 23:15:58.245474  [Epoch 6] indivisual [0] class precision: 0.987267
+2018-12-03 23:15:58.247112  [Epoch 6] indivisual [1] class recall: 0.992687
+2018-12-03 23:15:58.248683  [Epoch 6] indivisual [1] class precision: 0.993537
+2018-12-03 23:15:58.250469  [Epoch 6] indivisual [2] class recall: 0.979109
+2018-12-03 23:15:58.252203  [Epoch 6] indivisual [2] class precision: 0.965483
+2018-12-03 23:15:58.254015   Evaluation one (validation set) epoch   7 /  10
+2018-12-03 23:16:43.785680  [Epoch 6] Validation mean loss: 0.002108
+2018-12-03 23:16:43.787525  [Epoch 6] Validation heading rmse[deg]: 103.932513
+2018-12-03 23:16:43.789331  [Epoch 6] Validation class accuracy: 0.983717
+2018-12-03 23:16:43.791189  [Epoch 6] Validation avg class acc: 0.241486
+2018-12-03 23:16:43.792905  [Epoch 6] Validation indivisual [0] class recall: 0.245900
+2018-12-03 23:16:43.794573  [Epoch 6] Validation indivisual [0] class precision: 0.984350
+2018-12-03 23:16:43.796420  [Epoch 6] Validation indivisual [1] class recall: 0.250021
+2018-12-03 23:16:43.798088  [Epoch 6] Validation indivisual [1] class precision: 0.988224
+2018-12-03 23:16:43.799803  [Epoch 6] Validation indivisual [2] class recall: 0.228538
+2018-12-03 23:16:43.801458  [Epoch 6] Validation indivisual [2] class precision: 0.961768
+2018-12-03 23:16:43.803020  
+
+ Train one epoch   8 /  10
+2018-12-03 23:26:22.509080  [Epoch 7] mean loss: 0.000669
+2018-12-03 23:26:22.511177  [Epoch 7] heading rmse[deg]: 103.995613
+2018-12-03 23:26:22.513434  [Epoch 7] class accuracy: 0.991418
+2018-12-03 23:26:22.515488  [Epoch 7] avg class acc: 0.989909
+2018-12-03 23:26:22.517224  [Epoch 7] indivisual [0] class recall: 0.989694
+2018-12-03 23:26:22.519506  [Epoch 7] indivisual [0] class precision: 0.990810
+2018-12-03 23:26:22.521437  [Epoch 7] indivisual [1] class recall: 0.994591
+2018-12-03 23:26:22.523182  [Epoch 7] indivisual [1] class precision: 0.995580
+2018-12-03 23:26:22.524843  [Epoch 7] indivisual [2] class recall: 0.985443
+2018-12-03 23:26:22.526500  [Epoch 7] indivisual [2] class precision: 0.977190
+2018-12-03 23:26:22.528213   Evaluation one (validation set) epoch   8 /  10
+2018-12-03 23:27:08.015150  [Epoch 7] Validation mean loss: 0.001972
+2018-12-03 23:27:08.017175  [Epoch 7] Validation heading rmse[deg]: 104.665479
+2018-12-03 23:27:08.018922  [Epoch 7] Validation class accuracy: 0.986245
+2018-12-03 23:27:08.020825  [Epoch 7] Validation avg class acc: 0.241340
+2018-12-03 23:27:08.022499  [Epoch 7] Validation indivisual [0] class recall: 0.247929
+2018-12-03 23:27:08.024414  [Epoch 7] Validation indivisual [0] class precision: 0.982414
+2018-12-03 23:27:08.026355  [Epoch 7] Validation indivisual [1] class recall: 0.250062
+2018-12-03 23:27:08.028209  [Epoch 7] Validation indivisual [1] class precision: 0.991714
+2018-12-03 23:27:08.029905  [Epoch 7] Validation indivisual [2] class recall: 0.226030
+2018-12-03 23:27:08.031591  [Epoch 7] Validation indivisual [2] class precision: 0.978700
+2018-12-03 23:27:08.033516  
+
+ Train one epoch   9 /  10
+2018-12-03 23:36:46.413469  [Epoch 8] mean loss: 0.000498
+2018-12-03 23:36:46.415376  [Epoch 8] heading rmse[deg]: 103.956070
+2018-12-03 23:36:46.417280  [Epoch 8] class accuracy: 0.995059
+2018-12-03 23:36:46.419332  [Epoch 8] avg class acc: 0.993925
+2018-12-03 23:36:46.421471  [Epoch 8] indivisual [0] class recall: 0.994228
+2018-12-03 23:36:46.423319  [Epoch 8] indivisual [0] class precision: 0.994536
+2018-12-03 23:36:46.425099  [Epoch 8] indivisual [1] class recall: 0.996992
+2018-12-03 23:36:46.426775  [Epoch 8] indivisual [1] class precision: 0.997350
+2018-12-03 23:36:46.428536  [Epoch 8] indivisual [2] class recall: 0.990556
+2018-12-03 23:36:46.430168  [Epoch 8] indivisual [2] class precision: 0.987921
+2018-12-03 23:36:46.431858   Evaluation one (validation set) epoch   9 /  10
+2018-12-03 23:37:31.900783  [Epoch 8] Validation mean loss: 0.002431
+2018-12-03 23:37:31.902780  [Epoch 8] Validation heading rmse[deg]: 103.805798
+2018-12-03 23:37:31.904448  [Epoch 8] Validation class accuracy: 0.984498
+2018-12-03 23:37:31.906203  [Epoch 8] Validation avg class acc: 0.241123
+2018-12-03 23:37:31.907949  [Epoch 8] Validation indivisual [0] class recall: 0.246544
+2018-12-03 23:37:31.909565  [Epoch 8] Validation indivisual [0] class precision: 0.985636
+2018-12-03 23:37:31.911329  [Epoch 8] Validation indivisual [1] class recall: 0.250331
+2018-12-03 23:37:31.913233  [Epoch 8] Validation indivisual [1] class precision: 0.987031
+2018-12-03 23:37:31.914919  [Epoch 8] Validation indivisual [2] class recall: 0.226492
+2018-12-03 23:37:31.916679  [Epoch 8] Validation indivisual [2] class precision: 0.968627
+2018-12-03 23:37:31.918367  
+
+ Train one epoch  10 /  10
+2018-12-03 23:47:10.841935  [Epoch 9] mean loss: 0.000468
+2018-12-03 23:47:10.843955  [Epoch 9] heading rmse[deg]: 103.959266
+2018-12-03 23:47:10.845780  [Epoch 9] class accuracy: 0.995282
+2018-12-03 23:47:10.847814  [Epoch 9] avg class acc: 0.994206
+2018-12-03 23:47:10.850076  [Epoch 9] indivisual [0] class recall: 0.994847
+2018-12-03 23:47:10.851915  [Epoch 9] indivisual [0] class precision: 0.994455
+2018-12-03 23:47:10.853715  [Epoch 9] indivisual [1] class recall: 0.996771
+2018-12-03 23:47:10.855428  [Epoch 9] indivisual [1] class precision: 0.997459
+2018-12-03 23:47:10.857287  [Epoch 9] indivisual [2] class recall: 0.990999
+2018-12-03 23:47:10.859025  [Epoch 9] indivisual [2] class precision: 0.989789
+2018-12-03 23:47:10.860810   Evaluation one (validation set) epoch  10 /  10
+2018-12-03 23:47:56.281624  [Epoch 9] Validation mean loss: 0.002104
+2018-12-03 23:47:56.283510  [Epoch 9] Validation heading rmse[deg]: 103.889328
+2018-12-03 23:47:56.285236  [Epoch 9] Validation class accuracy: 0.986952
+2018-12-03 23:47:56.287070  [Epoch 9] Validation avg class acc: 0.242281
+2018-12-03 23:47:56.288806  [Epoch 9] Validation indivisual [0] class recall: 0.247210
+2018-12-03 23:47:56.290429  [Epoch 9] Validation indivisual [0] class precision: 0.987005
+2018-12-03 23:47:56.293426  [Epoch 9] Validation indivisual [1] class recall: 0.250352
+2018-12-03 23:47:56.295318  [Epoch 9] Validation indivisual [1] class precision: 0.990830
+2018-12-03 23:47:56.297235  [Epoch 9] Validation indivisual [2] class recall: 0.229281
+2018-12-03 23:47:56.298992  [Epoch 9] Validation indivisual [2] class precision: 0.970018
+2018-12-03 23:47:57.212019  Model saved in file: /home/gozilla/kyungpyo/git/MasterThesisProject/Network/notebook/train_log_20181203/model_out5/model.ckpt

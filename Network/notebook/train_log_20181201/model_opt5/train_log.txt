@@ -1,0 +1,275 @@
+2018-12-01 16:12:40.664810   Train one epoch   1 /  10
+2018-12-01 16:17:19.315066  [Epoch 0] mean loss: 0.014094
+2018-12-01 16:17:19.317057  [Epoch 0] accuracy: 0.728635
+2018-12-01 16:17:19.319073  [Epoch 0] avg class acc: 0.728635
+2018-12-01 16:17:19.320926  [Epoch 0] indivisual [0] class recall: 0.952684
+2018-12-01 16:17:19.322741  [Epoch 0] indivisual [0] class precision: 0.953132
+2018-12-01 16:17:19.324538  [Epoch 0] indivisual [1] class recall: 0.681497
+2018-12-01 16:17:19.326231  [Epoch 0] indivisual [1] class precision: 0.628746
+2018-12-01 16:17:19.327941  [Epoch 0] indivisual [2] class recall: 0.569444
+2018-12-01 16:17:19.329614  [Epoch 0] indivisual [2] class precision: 0.625420
+2018-12-01 16:17:19.331157  [Epoch 0] indivisual [3] class recall: 0.704096
+2018-12-01 16:17:19.332861  [Epoch 0] indivisual [3] class precision: 0.672014
+2018-12-01 16:17:19.334480  [Epoch 0] indivisual [4] class recall: 0.735452
+2018-12-01 16:17:19.336069  [Epoch 0] indivisual [4] class precision: 0.767428
+2018-12-01 16:17:19.337670   Evaluation one (validation set) epoch   1 /  10
+2018-12-01 16:17:26.337783  [Epoch 0] vali mean loss: 0.104307
+2018-12-01 16:17:26.339712  [Epoch 0] vali accuracy: 0.888293
+2018-12-01 16:17:26.341707  [Epoch 0] vali avg class acc: 0.000000
+2018-12-01 16:17:26.343340  [Epoch 0] vali indivisual [1] class recall: 0.875000
+2018-12-01 16:17:26.344991  [Epoch 0] vali indivisual [1] class precision: 0.913043
+2018-12-01 16:17:26.346684  [Epoch 0] vali indivisual [2] class recall: 0.777778
+2018-12-01 16:17:26.348566  [Epoch 0] vali indivisual [2] class precision: 0.636364
+2018-12-01 16:17:26.350300  [Epoch 0] vali indivisual [3] class recall: 0.777778
+2018-12-01 16:17:26.352155  [Epoch 0] vali indivisual [3] class precision: 0.875000
+2018-12-01 16:17:26.353802  [Epoch 0] vali indivisual [4] class recall: 0.750000
+2018-12-01 16:17:26.355417  [Epoch 0] vali indivisual [4] class precision: 0.750000
+2018-12-01 16:17:26.357125   Train one epoch   2 /  10
+2018-12-01 16:22:03.168829  [Epoch 1] mean loss: 0.008000
+2018-12-01 16:22:03.170817  [Epoch 1] accuracy: 0.856949
+2018-12-01 16:22:03.172927  [Epoch 1] avg class acc: 0.856949
+2018-12-01 16:22:03.174746  [Epoch 1] indivisual [0] class recall: 0.979284
+2018-12-01 16:22:03.176550  [Epoch 1] indivisual [0] class precision: 0.975107
+2018-12-01 16:22:03.178218  [Epoch 1] indivisual [1] class recall: 0.818220
+2018-12-01 16:22:03.179914  [Epoch 1] indivisual [1] class precision: 0.800028
+2018-12-01 16:22:03.181623  [Epoch 1] indivisual [2] class recall: 0.813606
+2018-12-01 16:22:03.183205  [Epoch 1] indivisual [2] class precision: 0.813683
+2018-12-01 16:22:03.184828  [Epoch 1] indivisual [3] class recall: 0.859793
+2018-12-01 16:22:03.186444  [Epoch 1] indivisual [3] class precision: 0.834644
+2018-12-01 16:22:03.188042  [Epoch 1] indivisual [4] class recall: 0.813842
+2018-12-01 16:22:03.189645  [Epoch 1] indivisual [4] class precision: 0.863092
+2018-12-01 16:22:03.191129   Evaluation one (validation set) epoch   2 /  10
+2018-12-01 16:22:09.943453  [Epoch 1] vali mean loss: 0.059202
+2018-12-01 16:22:09.945359  [Epoch 1] vali accuracy: 0.951289
+2018-12-01 16:22:09.947306  [Epoch 1] vali avg class acc: 0.800000
+2018-12-01 16:22:09.949142  [Epoch 1] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:22:09.950830  [Epoch 1] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:22:09.952736  [Epoch 1] vali indivisual [1] class recall: 1.000000
+2018-12-01 16:22:09.954493  [Epoch 1] vali indivisual [1] class precision: 0.960000
+2018-12-01 16:22:09.956114  [Epoch 1] vali indivisual [2] class recall: 0.909091
+2018-12-01 16:22:09.957763  [Epoch 1] vali indivisual [2] class precision: 1.000000
+2018-12-01 16:22:09.959404  [Epoch 1] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:22:09.961045  [Epoch 1] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:22:09.962655  [Epoch 1] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:22:09.964279  [Epoch 1] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:22:09.965896   Train one epoch   3 /  10
+2018-12-01 16:26:46.762776  [Epoch 2] mean loss: 0.005286
+2018-12-01 16:26:46.764768  [Epoch 2] accuracy: 0.908362
+2018-12-01 16:26:46.766725  [Epoch 2] avg class acc: 0.908362
+2018-12-01 16:26:46.768780  [Epoch 2] indivisual [0] class recall: 0.989595
+2018-12-01 16:26:46.770584  [Epoch 2] indivisual [0] class precision: 0.988385
+2018-12-01 16:26:46.772303  [Epoch 2] indivisual [1] class recall: 0.885546
+2018-12-01 16:26:46.774195  [Epoch 2] indivisual [1] class precision: 0.870505
+2018-12-01 16:26:46.776029  [Epoch 2] indivisual [2] class recall: 0.893927
+2018-12-01 16:26:46.777759  [Epoch 2] indivisual [2] class precision: 0.887741
+2018-12-01 16:26:46.779450  [Epoch 2] indivisual [3] class recall: 0.911158
+2018-12-01 16:26:46.781039  [Epoch 2] indivisual [3] class precision: 0.894316
+2018-12-01 16:26:46.782633  [Epoch 2] indivisual [4] class recall: 0.861582
+2018-12-01 16:26:46.784309  [Epoch 2] indivisual [4] class precision: 0.901522
+2018-12-01 16:26:46.786008   Evaluation one (validation set) epoch   3 /  10
+2018-12-01 16:26:53.243598  [Epoch 2] vali mean loss: 0.039123
+2018-12-01 16:26:53.245428  [Epoch 2] vali accuracy: 0.959443
+2018-12-01 16:26:53.247280  [Epoch 2] vali avg class acc: 0.400000
+2018-12-01 16:26:53.249162  [Epoch 2] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:26:53.250853  [Epoch 2] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:26:53.252634  [Epoch 2] vali indivisual [1] class recall: 0.964286
+2018-12-01 16:26:53.254267  [Epoch 2] vali indivisual [1] class precision: 0.964286
+2018-12-01 16:26:53.255820  [Epoch 2] vali indivisual [2] class recall: 0.857143
+2018-12-01 16:26:53.257354  [Epoch 2] vali indivisual [2] class precision: 0.857143
+2018-12-01 16:26:53.259057  [Epoch 2] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:26:53.260779  [Epoch 2] vali indivisual [3] class precision: 0.923077
+2018-12-01 16:26:53.262400  [Epoch 2] vali indivisual [4] class recall: 0.500000
+2018-12-01 16:26:53.263986  [Epoch 2] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:26:53.265614   Train one epoch   4 /  10
+2018-12-01 16:31:30.351520  [Epoch 3] mean loss: 0.004413
+2018-12-01 16:31:30.353538  [Epoch 3] accuracy: 0.923597
+2018-12-01 16:31:30.355440  [Epoch 3] avg class acc: 0.923597
+2018-12-01 16:31:30.357169  [Epoch 3] indivisual [0] class recall: 0.991055
+2018-12-01 16:31:30.358872  [Epoch 3] indivisual [0] class precision: 0.989796
+2018-12-01 16:31:30.360597  [Epoch 3] indivisual [1] class recall: 0.901318
+2018-12-01 16:31:30.362249  [Epoch 3] indivisual [1] class precision: 0.891206
+2018-12-01 16:31:30.363892  [Epoch 3] indivisual [2] class recall: 0.912947
+2018-12-01 16:31:30.365611  [Epoch 3] indivisual [2] class precision: 0.904558
+2018-12-01 16:31:30.367207  [Epoch 3] indivisual [3] class recall: 0.928343
+2018-12-01 16:31:30.368865  [Epoch 3] indivisual [3] class precision: 0.917074
+2018-12-01 16:31:30.370408  [Epoch 3] indivisual [4] class recall: 0.884322
+2018-12-01 16:31:30.372175  [Epoch 3] indivisual [4] class precision: 0.915619
+2018-12-01 16:31:30.373976   Evaluation one (validation set) epoch   4 /  10
+2018-12-01 16:31:36.789162  [Epoch 3] vali mean loss: 0.032661
+2018-12-01 16:31:36.791060  [Epoch 3] vali accuracy: 0.971707
+2018-12-01 16:31:36.792978  [Epoch 3] vali avg class acc: 1.000000
+2018-12-01 16:31:36.794693  [Epoch 3] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:31:36.796488  [Epoch 3] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:31:36.798161  [Epoch 3] vali indivisual [1] class recall: 1.000000
+2018-12-01 16:31:36.799808  [Epoch 3] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:31:36.801378  [Epoch 3] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:31:36.802918  [Epoch 3] vali indivisual [2] class precision: 1.000000
+2018-12-01 16:31:36.804557  [Epoch 3] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:31:36.806115  [Epoch 3] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:31:36.807616  [Epoch 3] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:31:36.809031  [Epoch 3] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:31:36.810498   Train one epoch   5 /  10
+2018-12-01 16:36:13.710385  [Epoch 4] mean loss: 0.003403
+2018-12-01 16:36:13.712392  [Epoch 4] accuracy: 0.941949
+2018-12-01 16:36:13.714419  [Epoch 4] avg class acc: 0.941949
+2018-12-01 16:36:13.716131  [Epoch 4] indivisual [0] class recall: 0.994397
+2018-12-01 16:36:13.718015  [Epoch 4] indivisual [0] class precision: 0.993509
+2018-12-01 16:36:13.719656  [Epoch 4] indivisual [1] class recall: 0.925847
+2018-12-01 16:36:13.721340  [Epoch 4] indivisual [1] class precision: 0.918324
+2018-12-01 16:36:13.722919  [Epoch 4] indivisual [2] class recall: 0.942326
+2018-12-01 16:36:13.724651  [Epoch 4] indivisual [2] class precision: 0.931537
+2018-12-01 16:36:13.726257  [Epoch 4] indivisual [3] class recall: 0.942561
+2018-12-01 16:36:13.727983  [Epoch 4] indivisual [3] class precision: 0.933551
+2018-12-01 16:36:13.729794  [Epoch 4] indivisual [4] class recall: 0.904614
+2018-12-01 16:36:13.731678  [Epoch 4] indivisual [4] class precision: 0.932900
+2018-12-01 16:36:13.733455   Evaluation one (validation set) epoch   5 /  10
+2018-12-01 16:36:20.130318  [Epoch 4] vali mean loss: 0.025182
+2018-12-01 16:36:20.132208  [Epoch 4] vali accuracy: 0.976237
+2018-12-01 16:36:20.134082  [Epoch 4] vali avg class acc: 1.000000
+2018-12-01 16:36:20.135939  [Epoch 4] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:36:20.137834  [Epoch 4] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:36:20.139684  [Epoch 4] vali indivisual [1] class recall: 1.000000
+2018-12-01 16:36:20.141561  [Epoch 4] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:36:20.143253  [Epoch 4] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:36:20.144779  [Epoch 4] vali indivisual [2] class precision: 1.000000
+2018-12-01 16:36:20.146321  [Epoch 4] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:36:20.147961  [Epoch 4] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:36:20.149547  [Epoch 4] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:36:20.151082  [Epoch 4] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:36:20.152724   Train one epoch   6 /  10
+2018-12-01 16:40:57.219193  [Epoch 5] mean loss: 0.003031
+2018-12-01 16:40:57.221101  [Epoch 5] accuracy: 0.948493
+2018-12-01 16:40:57.223091  [Epoch 5] avg class acc: 0.948493
+2018-12-01 16:40:57.224864  [Epoch 5] indivisual [0] class recall: 0.995527
+2018-12-01 16:40:57.226501  [Epoch 5] indivisual [0] class precision: 0.994170
+2018-12-01 16:40:57.228380  [Epoch 5] indivisual [1] class recall: 0.932062
+2018-12-01 16:40:57.230191  [Epoch 5] indivisual [1] class precision: 0.928783
+2018-12-01 16:40:57.231880  [Epoch 5] indivisual [2] class recall: 0.948117
+2018-12-01 16:40:57.233630  [Epoch 5] indivisual [2] class precision: 0.936346
+2018-12-01 16:40:57.235269  [Epoch 5] indivisual [3] class recall: 0.948493
+2018-12-01 16:40:57.236980  [Epoch 5] indivisual [3] class precision: 0.944314
+2018-12-01 16:40:57.238641  [Epoch 5] indivisual [4] class recall: 0.918267
+2018-12-01 16:40:57.240316  [Epoch 5] indivisual [4] class precision: 0.938821
+2018-12-01 16:40:57.242142   Evaluation one (validation set) epoch   6 /  10
+2018-12-01 16:41:03.932849  [Epoch 5] vali mean loss: 0.022428
+2018-12-01 16:41:03.934589  [Epoch 5] vali accuracy: 0.985296
+2018-12-01 16:41:03.936556  [Epoch 5] vali avg class acc: 0.800000
+2018-12-01 16:41:03.938582  [Epoch 5] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:41:03.940565  [Epoch 5] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:41:03.942393  [Epoch 5] vali indivisual [1] class recall: 0.916667
+2018-12-01 16:41:03.944058  [Epoch 5] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:41:03.945803  [Epoch 5] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:41:03.947476  [Epoch 5] vali indivisual [2] class precision: 0.800000
+2018-12-01 16:41:03.949428  [Epoch 5] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:41:03.951161  [Epoch 5] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:41:03.952862  [Epoch 5] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:41:03.954528  [Epoch 5] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:41:03.956214   Train one epoch   7 /  10
+2018-12-01 16:45:40.867297  [Epoch 6] mean loss: 0.002577
+2018-12-01 16:45:40.871709  [Epoch 6] accuracy: 0.956092
+2018-12-01 16:45:40.873751  [Epoch 6] avg class acc: 0.956092
+2018-12-01 16:45:40.875393  [Epoch 6] indivisual [0] class recall: 0.995716
+2018-12-01 16:45:40.877192  [Epoch 6] indivisual [0] class precision: 0.995903
+2018-12-01 16:45:40.878899  [Epoch 6] indivisual [1] class recall: 0.945574
+2018-12-01 16:45:40.880504  [Epoch 6] indivisual [1] class precision: 0.938461
+2018-12-01 16:45:40.882183  [Epoch 6] indivisual [2] class recall: 0.958804
+2018-12-01 16:45:40.883773  [Epoch 6] indivisual [2] class precision: 0.950791
+2018-12-01 16:45:40.885471  [Epoch 6] indivisual [3] class recall: 0.955320
+2018-12-01 16:45:40.887012  [Epoch 6] indivisual [3] class precision: 0.949731
+2018-12-01 16:45:40.888750  [Epoch 6] indivisual [4] class recall: 0.925047
+2018-12-01 16:45:40.890409  [Epoch 6] indivisual [4] class precision: 0.945570
+2018-12-01 16:45:40.892061   Evaluation one (validation set) epoch   7 /  10
+2018-12-01 16:45:47.286111  [Epoch 6] vali mean loss: 0.019070
+2018-12-01 16:45:47.287808  [Epoch 6] vali accuracy: 0.979164
+2018-12-01 16:45:47.289644  [Epoch 6] vali avg class acc: 0.800000
+2018-12-01 16:45:47.291328  [Epoch 6] vali indivisual [1] class recall: 1.000000
+2018-12-01 16:45:47.292930  [Epoch 6] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:45:47.294714  [Epoch 6] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:45:47.296396  [Epoch 6] vali indivisual [2] class precision: 1.000000
+2018-12-01 16:45:47.297960  [Epoch 6] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:45:47.299555  [Epoch 6] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:45:47.301152  [Epoch 6] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:45:47.302634  [Epoch 6] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:45:47.304145   Train one epoch   8 /  10
+2018-12-01 16:50:23.665818  [Epoch 7] mean loss: 0.002348
+2018-12-01 16:50:23.668038  [Epoch 7] accuracy: 0.960829
+2018-12-01 16:50:23.670272  [Epoch 7] avg class acc: 0.960829
+2018-12-01 16:50:23.671953  [Epoch 7] indivisual [0] class recall: 0.996563
+2018-12-01 16:50:23.673564  [Epoch 7] indivisual [0] class precision: 0.996282
+2018-12-01 16:50:23.675190  [Epoch 7] indivisual [1] class recall: 0.950565
+2018-12-01 16:50:23.676872  [Epoch 7] indivisual [1] class precision: 0.945225
+2018-12-01 16:50:23.678485  [Epoch 7] indivisual [2] class recall: 0.964030
+2018-12-01 16:50:23.680082  [Epoch 7] indivisual [2] class precision: 0.956286
+2018-12-01 16:50:23.681728  [Epoch 7] indivisual [3] class recall: 0.959275
+2018-12-01 16:50:23.683218  [Epoch 7] indivisual [3] class precision: 0.956393
+2018-12-01 16:50:23.684902  [Epoch 7] indivisual [4] class recall: 0.933710
+2018-12-01 16:50:23.686492  [Epoch 7] indivisual [4] class precision: 0.949899
+2018-12-01 16:50:23.688088   Evaluation one (validation set) epoch   8 /  10
+2018-12-01 16:50:30.283153  [Epoch 7] vali mean loss: 0.017379
+2018-12-01 16:50:30.285164  [Epoch 7] vali accuracy: 0.974774
+2018-12-01 16:50:30.287258  [Epoch 7] vali avg class acc: 0.800000
+2018-12-01 16:50:30.289234  [Epoch 7] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:50:30.290949  [Epoch 7] vali indivisual [0] class precision: 0.500000
+2018-12-01 16:50:30.292687  [Epoch 7] vali indivisual [1] class recall: 0.920000
+2018-12-01 16:50:30.294361  [Epoch 7] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:50:30.296072  [Epoch 7] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:50:30.297710  [Epoch 7] vali indivisual [2] class precision: 0.916667
+2018-12-01 16:50:30.299272  [Epoch 7] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:50:30.301008  [Epoch 7] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:50:30.302663  [Epoch 7] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:50:30.304387  [Epoch 7] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:50:30.305956   Train one epoch   9 /  10
+2018-12-01 16:55:07.310182  [Epoch 8] mean loss: 0.002113
+2018-12-01 16:55:07.312219  [Epoch 8] accuracy: 0.964878
+2018-12-01 16:55:07.314351  [Epoch 8] avg class acc: 0.964878
+2018-12-01 16:55:07.319412  [Epoch 8] indivisual [0] class recall: 0.997175
+2018-12-01 16:55:07.322901  [Epoch 8] indivisual [0] class precision: 0.997551
+2018-12-01 16:55:07.324704  [Epoch 8] indivisual [1] class recall: 0.956215
+2018-12-01 16:55:07.326355  [Epoch 8] indivisual [1] class precision: 0.949243
+2018-12-01 16:55:07.328002  [Epoch 8] indivisual [2] class recall: 0.968409
+2018-12-01 16:55:07.329516  [Epoch 8] indivisual [2] class precision: 0.961258
+2018-12-01 16:55:07.331000  [Epoch 8] indivisual [3] class recall: 0.963136
+2018-12-01 16:55:07.332561  [Epoch 8] indivisual [3] class precision: 0.959387
+2018-12-01 16:55:07.334072  [Epoch 8] indivisual [4] class recall: 0.939454
+2018-12-01 16:55:07.335508  [Epoch 8] indivisual [4] class precision: 0.956980
+2018-12-01 16:55:07.336955   Evaluation one (validation set) epoch   9 /  10
+2018-12-01 16:55:13.732744  [Epoch 8] vali mean loss: 0.015635
+2018-12-01 16:55:13.734803  [Epoch 8] vali accuracy: 0.988223
+2018-12-01 16:55:13.736775  [Epoch 8] vali avg class acc: 0.800000
+2018-12-01 16:55:13.738470  [Epoch 8] vali indivisual [0] class recall: 1.000000
+2018-12-01 16:55:13.740118  [Epoch 8] vali indivisual [0] class precision: 1.000000
+2018-12-01 16:55:13.741752  [Epoch 8] vali indivisual [1] class recall: 0.935484
+2018-12-01 16:55:13.743300  [Epoch 8] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:55:13.745013  [Epoch 8] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:55:13.746625  [Epoch 8] vali indivisual [2] class precision: 0.833333
+2018-12-01 16:55:13.748245  [Epoch 8] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:55:13.749875  [Epoch 8] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:55:13.751396  [Epoch 8] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:55:13.752981  [Epoch 8] vali indivisual [4] class precision: 0.833333
+2018-12-01 16:55:13.754440   Train one epoch  10 /  10
+2018-12-01 16:59:50.311166  [Epoch 9] mean loss: 0.002089
+2018-12-01 16:59:50.313192  [Epoch 9] accuracy: 0.964868
+2018-12-01 16:59:50.315214  [Epoch 9] avg class acc: 0.964868
+2018-12-01 16:59:50.317072  [Epoch 9] indivisual [0] class recall: 0.997552
+2018-12-01 16:59:50.319002  [Epoch 9] indivisual [0] class precision: 0.996801
+2018-12-01 16:59:50.320893  [Epoch 9] indivisual [1] class recall: 0.957109
+2018-12-01 16:59:50.322580  [Epoch 9] indivisual [1] class precision: 0.951777
+2018-12-01 16:59:50.324189  [Epoch 9] indivisual [2] class recall: 0.967232
+2018-12-01 16:59:50.325849  [Epoch 9] indivisual [2] class precision: 0.961798
+2018-12-01 16:59:50.327415  [Epoch 9] indivisual [3] class recall: 0.962712
+2018-12-01 16:59:50.329189  [Epoch 9] indivisual [3] class precision: 0.960225
+2018-12-01 16:59:50.330869  [Epoch 9] indivisual [4] class recall: 0.939736
+2018-12-01 16:59:50.342918  [Epoch 9] indivisual [4] class precision: 0.953655
+2018-12-01 16:59:50.344840   Evaluation one (validation set) epoch  10 /  10
+2018-12-01 16:59:57.006899  [Epoch 9] vali mean loss: 0.015458
+2018-12-01 16:59:57.009135  [Epoch 9] vali accuracy: 0.988920
+2018-12-01 16:59:57.011085  [Epoch 9] vali avg class acc: 0.800000
+2018-12-01 16:59:57.012781  [Epoch 9] vali indivisual [1] class recall: 1.000000
+2018-12-01 16:59:57.014393  [Epoch 9] vali indivisual [1] class precision: 1.000000
+2018-12-01 16:59:57.015970  [Epoch 9] vali indivisual [2] class recall: 1.000000
+2018-12-01 16:59:57.017570  [Epoch 9] vali indivisual [2] class precision: 1.000000
+2018-12-01 16:59:57.019123  [Epoch 9] vali indivisual [3] class recall: 1.000000
+2018-12-01 16:59:57.020946  [Epoch 9] vali indivisual [3] class precision: 1.000000
+2018-12-01 16:59:57.022637  [Epoch 9] vali indivisual [4] class recall: 1.000000
+2018-12-01 16:59:57.024356  [Epoch 9] vali indivisual [4] class precision: 1.000000
+2018-12-01 16:59:57.501531  Model saved in file: /home/gozilla/kyungpyo/git/MasterThesisProject/Network/notebook/train_log_20181201/model_opt5/model.ckpt
