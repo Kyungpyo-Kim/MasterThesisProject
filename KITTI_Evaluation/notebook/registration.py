@@ -295,3 +295,240 @@ def layered_registration(source, target, iteration, prev_source = None):
     return None, mat_tf, None, np.mean([me1, me2, me3, me4])
     
 
+import pcl
+import numpy as np
+import copy
+
+from sklearn.decomposition import PCA
+
+from visualization import *
+
+def _find_rotation_xy_helper(pc):
+    pca = PCA(n_components=2)
+
+    pca.fit(pc[:,:2])
+
+    rotxy = np.array(pca.components_)
+
+    # make sure the rotation is a proper rotation, ie det = +1
+    if np.linalg.det(rotxy) < 0:
+        rotxy[:, 1] *= -1.0
+
+    # create a 3D rotation around the z-axis
+    rotation = np.eye(3)
+    rotation[0:2, 0:2] = rotxy
+
+    return rotation
+
+def layered_registration_test(source, target, iteration, prev_source=np.array([])):
+        
+    z_max = np.max( [ np.max(source[:,2]), np.max(target[:,2]) ] )
+    z_min = np.min( [ np.min(source[:,2]), np.min(target[:,2]) ] )
+    
+    num_layer = 3.
+    
+    layer_size = (z_max - z_min) / float(num_layer)
+        
+    
+    """ parameters """
+    # layer boundary condition
+    layer_boundary = []
+    
+    layer_boundary.append(z_min)
+    
+    for i in range( int(num_layer) ):
+        layer_boundary.append(z_min + layer_size * (i + 0.5))
+    
+    h_bnd = 0.1
+
+    tolerance = 0.0001
+
+
+    """ 
+    init pose estimation 
+    """ 
+    # prev point cloud
+    init_pose = np.eye(3)
+
+    if prev_source.shape[0] > 0 :
+        
+        ps_pc = prev_source.copy()
+        tg_pc = target.copy()
+
+        # translate points to their centroids
+        centroid_A = np.mean(ps_pc, axis=0)
+        centroid_B = np.mean(tg_pc, axis=0)
+        AA = ps_pc - centroid_A
+        BB = tg_pc - centroid_B
+
+        ps_transform = _find_rotation_xy_helper(AA)
+        tg_transform = _find_rotation_xy_helper(BB)
+        R = np.dot(np.linalg.inv(tg_transform), ps_transform)
+
+        # translation
+        t = centroid_B.T - np.dot(R,centroid_A.T)
+
+        # homogeneous transformation
+        init_pose = np.identity(3)
+        init_pose[:2, :2] = R[:2, :2]
+        init_pose[:2, 2] = t[:2]
+                
+        ps = prev_source.copy()
+        tl = target.copy()
+                
+        init_pose, _, _, _, me1, mat_pt_num1 = icpMatchingPointNum(ps[:, :2],
+                                tl[:, :2],
+                                init_pose = init_pose.copy(),
+                                max_iterations = 200,
+                                tolerance = tolerance,
+                                rm_outlier_dist = 0.2)
+        
+    
+    mat_list = []
+    corres_num_list = []
+    mean_error_list = []
+    
+    for i in range( int(num_layer)):
+        
+        
+        """ 
+        layer-based sampling 
+        """
+        
+        ## target
+        tl = target.copy()
+        tl = tl[ tl[:,2] > layer_boundary[i] ]
+        tl = tl[ tl[:,2] < layer_boundary[i+1] ]
+
+        l_s_bnd = np.mean( tl[:,2] )
+
+        sl = source.copy()
+
+        sl = sl[ sl[:,2] < l_s_bnd + h_bnd ]
+        sl = sl[ sl[:,2] > l_s_bnd - h_bnd ]
+        
+        """
+        Registration
+        """
+        
+        # matching1
+        if tl.shape[0] > 0 and sl.shape[0] > 0:
+            mat_tf, _, _, _, me, mat_pt_num = icpMatchingPointNum(sl[:, :2],
+                                            tl[:, :2],
+                                            init_pose = init_pose.copy(),
+                                            max_iterations = 200,
+                                            tolerance = tolerance,
+                                            rm_outlier_dist = 0.2)
+        else:
+            mat_tf = init_pose.copy()
+            me = tolerance * 1000.
+            mat_pt_num = 0
+            
+        mat_list.append(mat_tf)
+        corres_num_list.append(mat_pt_num)
+        mean_error_list.append(me)
+
+    """
+    Aggregation
+    """    
+    alpha = 0.9
+    c = 0.01
+
+    n_layer = np.array( corres_num_list )
+    e_layer = np.array( mean_error_list )
+
+    w_layer = None
+    if np.sum(n_layer) == 0.:
+        w_layer = e_layer / np.sum(e_layer)
+    else:
+        w_layer = alpha * n_layer / np.sum(n_layer) + (1. - alpha) * e_layer / np.sum(e_layer)
+    
+
+#     mat_tf = np.zeros((3,3))
+    
+#     for i in range( len( w_layer ) ):
+        
+#         mat_tf += mat_list[i]*w_layer[i]
+
+    mat_tf = mat_list[np.argmax(w_layer)]
+
+
+    return None, mat_tf, None, np.mean(mean_error_list)
+
+from transformation import *
+import time
+def registration_layered(pc):
+    
+    min_reg_point_num = 50
+    source_list = []
+    target_list = []
+    acc_list = []
+
+    source = pc[0][:,:3].copy()
+    target = None
+    acc = None
+
+    """ 
+    Accumulation
+    """
+    source_list = []
+    target_list = []
+    acc_list = []
+
+    source = pc[0][:,:3].copy()
+    target = pc[0][:,:3].copy()
+    acc = None
+
+    acc_list.append(source.copy())
+    prev = source.copy()
+
+    for frame in range(1, len(pc)):
+    
+        if len(pc[frame]) > min_reg_point_num and len(source) > min_reg_point_num:
+            
+            ## Set target point cloud
+            del target
+            target = pc[frame][:,:3].copy()
+
+            ## run registration
+
+            # parameters
+            iteration = 200
+
+            start_time = time.time()
+
+            converged, mat_tf, estimate, finess = layered_registration_test(source, target, iteration, prev)   
+
+            ## accumulation
+            # target
+            pad = lambda x: np.hstack([x, np.ones((x.shape[0], 1))])
+            unpad = lambda x: x[:, :-1]
+            func_tf = lambda x: unpad(np.dot(mat_tf, pad(x).T).T)
+
+            source_trans = source.copy()
+            source_trans[:,:2] = func_tf(source.copy()[:,:2])
+
+            del acc
+            acc = np.concatenate((target, source_trans), axis = 0)
+            acc_list.append(acc.copy())
+
+            ## update source point cloud
+            del source
+            pcl_acc = pcl.PointCloud(acc.copy())
+            pcl_acc_vf = pcl_acc.make_voxel_grid_filter()
+            pcl_acc_vf.set_leaf_size(0.01, 0.01, 0.01)
+
+            pcl_acc_sor = pcl_acc_vf.filter().make_statistical_outlier_filter()
+            pcl_acc_sor.set_mean_k(50)
+            pcl_acc_sor.set_std_dev_mul_thresh(1.0)
+
+            source = np.array(pcl_acc_sor.filter())
+
+            del prev
+            prev = pc[frame][:,:3].copy()
+
+        else:
+            source = target.copy()
+            prev = target.copy()
+        
+    return acc_list
